@@ -10,7 +10,7 @@ public class Search {
 		return -1;
 	}
 	public static int binarySearch(int[] dataset, int target, int start, int end) {
-		System.out.println("Searching between " + dataset[start] + " and " + dataset[end]);
+//		System.out.println("Searching between " + dataset[start] + " and " + dataset[end]);
 		int middle = (int) Math.floor((start+end)/2);
 		int value = dataset[middle];
 		
@@ -26,4 +26,6 @@ public class Search {
 		return middle;
 		
 	}
+	
+	
 }
